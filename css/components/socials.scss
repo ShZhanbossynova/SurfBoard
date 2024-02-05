@@ -1,0 +1,28 @@
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials__item {
+  margin-right: rem(14px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socials__link {
+  display: block;
+}
+
+.socials__icon {
+  overflow: hidden;
+  width: rem(20px);
+  height: rem(20px);
+  fill: $grey;
+
+  &:hover {
+    fill: rgba(41, 41, 41, 1);
+    stroke: none;
+  }
+}

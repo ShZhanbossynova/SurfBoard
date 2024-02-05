@@ -1,0 +1,43 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$white: #fff;
+$lightgrey: #F2F5F4; 
+$grey: #666;
+$darkgrey: #292929;
+$black: #000;
+$yellow: #FEDB3F;
+$blue: #1968B1;
+
+@import 'components/media.scss';
+
+//normalize
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css);
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+@import 'layout';
+
+//components 
+@import 'components/hero.scss';
+@import 'components/header.scss';
+@import 'components/burger.scss';
+@import 'components/features.scss';
+@import 'components/btn.scss';
+@import 'components/section.scss';
+@import 'components/benefits.scss';
+@import 'components/headline.scss';
+@import 'components/reviews.scss';
+@import 'components/interactive-avatar.scss';
+@import 'components/form.scss';
+@import 'components/radio.scss';
+@import 'components/fixed-menu.scss';
+@import 'components/map.scss';
+@import 'components/footer.scss';
+@import 'components/socials.scss';
+@import 'components/contacts.scss';

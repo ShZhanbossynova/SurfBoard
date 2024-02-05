@@ -1,0 +1,14 @@
+.contacts {
+  font-style: normal;
+
+  @include phones {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+    align-items: center;
+  }
+}
+
+.contacts__address {
+  font-size: rem(24px);
+}

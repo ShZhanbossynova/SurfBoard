@@ -1,0 +1,23 @@
+.features {
+  display: flex; }
+
+.features__item {
+  margin-right: rem(33px); }
+  .features__item:last-child {
+    margin-right: 0; }
+
+.feature {
+  display: flex; }
+
+.feature__icon {
+  width: rem(38px);
+  height: rem(38px);
+  margin-right: rem(11px); }
+
+.feature__text {
+  font-size: rem(16px);
+  font-weight: 700;
+  line-height: rem(18px);
+  width: rem(90px); }
+
+/*# sourceMappingURL=features.css.map */
