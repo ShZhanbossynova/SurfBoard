@@ -3,6 +3,10 @@ header {
   align-items: flex-start;
   justify-content: space-between;
   font-weight: 700;
+  
+  @include tablets {
+    position: absolute;
+  }
 }
 
 .menu {

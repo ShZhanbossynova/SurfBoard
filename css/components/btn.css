@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$yellow".
-        on line 12 of /Users/Shynar/Desktop/SurfBoard/css/components/btn.scss
+        on line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/btn.scss
 
-7:   border: none;
 8:   cursor: pointer;
-9: 
+9:   transition: .3s;
 10: 
-11:   &-theme-yellow {
-12:     background-color: $yellow;
-13:     color: $black;
-14: 
-15:     &:hover {
-16:       color: $yellow;
-17:       background: $black;
+11: 
+12:   &-theme-yellow {
+13:     background-color: $yellow;
+14:     color: $black;
+15: 
+16:     &:hover {
+17:       color: $yellow;
+18:       background: $black;
 
 Backtrace:
-/Users/Shynar/Desktop/SurfBoard/css/components/btn.scss:12
+/Users/Shynar/Desktop/SurfBoard/css/components/btn.scss:13
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$yellow\".\A         on line 12 of /Users/Shynar/Desktop/SurfBoard/css/components/btn.scss\A \A 7:   border: none;\A 8:   cursor: pointer;\A 9: \A 10: \A 11:   &-theme-yellow {\A 12:     background-color: $yellow;\A 13:     color: $black;\A 14: \A 15:     &:hover {\A 16:       color: $yellow;\A 17:       background: $black;"; }
+  content: "Error: Undefined variable: \"$yellow\".\A         on line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/btn.scss\A \A 8:   cursor: pointer;\A 9:   transition: .3s;\A 10: \A 11: \A 12:   &-theme-yellow {\A 13:     background-color: $yellow;\A 14:     color: $black;\A 15: \A 16:     &:hover {\A 17:       color: $yellow;\A 18:       background: $black;"; }

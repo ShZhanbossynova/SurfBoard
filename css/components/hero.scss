@@ -11,6 +11,7 @@
   @include tablets {
     background-position: right bottom;
     background-size: auto;
+    position: relative;
   }
 
   @include phones {

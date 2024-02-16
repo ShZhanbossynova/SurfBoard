@@ -1,23 +1,21 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/burger.scss, in `tablets'
-        from line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/burger.scss
+        on line 4 of /Users/Shynar/Desktop/SurfBoard/css/components/params.scss, in `tablets'
+        from line 4 of /Users/Shynar/Desktop/SurfBoard/css/components/params.scss
 
-8:   top: rem(34px);
-9:   right: 3%;
-10:   transition: all .4s;
-11:   z-index: 15;
-12: 
-13:   @include tablets {
-14:     display: inline-flex;
-15:   }
-16: 
-17:   &__plank {
-18:     display: block;
+1: .params {
+2:   padding: 15px 0;
+3: 
+4:   @include tablets {
+5:     padding: 0 rem(45px);
+6:   }
+7: 
+8:   @include phones {
+9:     padding: 0 rem(55px);
 
 Backtrace:
-/Users/Shynar/Desktop/SurfBoard/css/components/burger.scss:13:in `tablets'
-/Users/Shynar/Desktop/SurfBoard/css/components/burger.scss:13
+/Users/Shynar/Desktop/SurfBoard/css/components/params.scss:4:in `tablets'
+/Users/Shynar/Desktop/SurfBoard/css/components/params.scss:4
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +64,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/burger.scss, in `tablets'\A         from line 13 of /Users/Shynar/Desktop/SurfBoard/css/components/burger.scss\A \A 8:   top: rem(34px);\A 9:   right: 3%;\A 10:   transition: all .4s;\A 11:   z-index: 15;\A 12: \A 13:   @include tablets {\A 14:     display: inline-flex;\A 15:   }\A 16: \A 17:   &__plank {\A 18:     display: block;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 4 of /Users/Shynar/Desktop/SurfBoard/css/components/params.scss, in `tablets'\A         from line 4 of /Users/Shynar/Desktop/SurfBoard/css/components/params.scss\A \A 1: .params {\A 2:   padding: 15px 0;\A 3: \A 4:   @include tablets {\A 5:     padding: 0 rem(45px);\A 6:   }\A 7: \A 8:   @include phones {\A 9:     padding: 0 rem(55px);"; }

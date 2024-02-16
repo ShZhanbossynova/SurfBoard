@@ -6,6 +6,7 @@
   border-radius: rem(100px);
   border: none;
   cursor: pointer;
+  transition: .3s;
 
 
   &-theme-yellow {
@@ -27,6 +28,31 @@
 
     &:hover {
       color: $yellow;
+    }
+  }
+}
+
+.btn-slide {
+  position: absolute;
+  border: none;
+  background: none;
+
+  &__left {
+    left: 3%;
+    top: auto;
+  }
+
+  &__right {
+    right: 3%;
+  }
+
+  @include tablets {
+    &__left {
+      top: 25%
+    }
+
+    &__right {
+      top: 25%
     }
   }
 }

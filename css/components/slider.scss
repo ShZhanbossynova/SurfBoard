@@ -1,0 +1,33 @@
+.slider {
+  position: relative;
+
+  .container {
+    // position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  background-color: #F8FAF9;
+  padding: rem(65px) 0 rem(33px) 0;
+  overflow: hidden;
+
+  &__wrapper {
+    overflow: hidden;
+  }
+
+  &__list {
+    display: flex;
+    position: relative;
+    transition: right;
+  }
+
+  @include tablets {
+    padding: 0 10% rem(30px);
+  }
+  
+  @include phones {
+    padding: rem(15px) 2%;
+  }
+}
