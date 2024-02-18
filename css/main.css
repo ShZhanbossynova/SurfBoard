@@ -142,10 +142,11 @@ header {
       width: 100%;
       top: 0;
       height: 5.0555555556rem; } }
-  header .logo {
-    position: relative;
-    top: 1.4444444444rem;
-    left: 1.6666666667rem; }
+  @media screen and (max-width: 768px) {
+    header .logo {
+      position: relative;
+      top: 1.4444444444rem;
+      left: 1.6666666667rem; } }
 
 .menu {
   margin: 0 30px;
