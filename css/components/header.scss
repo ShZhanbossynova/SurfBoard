@@ -15,9 +15,11 @@ header {
   }
 
   .logo {
-    position: relative;
-    top: rem(26px);
-    left: rem(30px);
+  
+    @include tablets {
+      position: relative;
+      top: rem(26px);
+      left: rem(30px);}
   }
 }
 
