@@ -69,7 +69,7 @@ img {
 
 .hero {
   width: 100%;
-  background: url(../img/bg1.png), #1968B1;
+  background: url(../img/bg1.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,13 +78,14 @@ img {
   color: #fff; }
   @media screen and (max-width: 768px) {
     .hero {
+      background: url(../img/arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png);
       background-position: right bottom;
-      background-size: auto;
+      background-size: 100% 100%;
       position: relative; } }
   @media screen and (max-width: 480px) {
     .hero {
       background-position: right 15% bottom;
-      background-size: auto; } }
+      background-size: cover; } }
 
 .hero__container {
   display: flex;
@@ -134,7 +135,17 @@ header {
   font-weight: 700; }
   @media screen and (max-width: 768px) {
     header {
-      position: absolute; } }
+      position: absolute;
+      background: #1968B1;
+      left: 0;
+      right: 0;
+      width: 100%;
+      top: 0;
+      height: 5.0555555556rem; } }
+  header .logo {
+    position: relative;
+    top: 1.4444444444rem;
+    left: 1.6666666667rem; }
 
 .menu {
   margin: 0 30px;
@@ -425,7 +436,6 @@ header {
     background-color: #292929;
     border-radius: 4px; }
   .params__info:hover .info__menu {
-    left: 0;
     opacity: 1; }
   .params__image {
     width: 100%;
@@ -481,7 +491,9 @@ header {
   .params__price {
     font-size: 3.3333333333rem;
     color: #151515;
-    font-weight: 300; }
+    font-weight: 300;
+    display: flex;
+    gap: 0.5555555556rem; }
   @media screen and (max-width: 768px) {
     .params__info {
       display: none; }
@@ -499,15 +511,14 @@ header {
   box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.06);
   padding: 1.5555555556rem 1.6666666667rem;
   width: 16.1666666667rem;
-  left: -555.5rem;
   color: #000;
   font-size: 0.8888888889rem;
   font-weight: 500;
-  opacity: 0.8;
-  transition: opacity 1s;
+  transition: .3s;
   border-radius: 0.2222222222rem;
-  margin-left: 5rem;
-  box-sizing: border-box; }
+  left: 100%;
+  box-sizing: border-box;
+  opacity: 0; }
 .info__item {
   display: flex;
   align-items: center;

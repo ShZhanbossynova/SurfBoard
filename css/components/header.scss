@@ -6,6 +6,18 @@ header {
   
   @include tablets {
     position: absolute;
+    background: $blue;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    height: rem(91px);
+  }
+
+  .logo {
+    position: relative;
+    top: rem(26px);
+    left: rem(30px);
   }
 }
 

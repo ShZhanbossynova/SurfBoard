@@ -1,23 +1,22 @@
 /*
-Error: Undefined variable: "$blue".
-        on line 3 of /Users/Shynar/Desktop/SurfBoard/css/components/hero.scss
+Error: Undefined variable: "$white".
+        on line 9 of /Users/Shynar/Desktop/SurfBoard/css/components/hero.scss
 
-1: .hero {
-2:   width: 100%;
-3:   background: url(../img/bg1.png), $blue;
 4:   background-position: center center;
 5:   background-repeat: no-repeat;
 6:   background-size: cover;
 7:   height: 100vh;
 8:   min-height: rem(650px);
+9:   color: $white;
+10: 
+11:   @include tablets {
+12:     background: url(../img/arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png);
+13:     background-position: right bottom;
+14:     background-size: 100% 100%;
 
 Backtrace:
-/Users/Shynar/Desktop/SurfBoard/css/components/hero.scss:3
+/Users/Shynar/Desktop/SurfBoard/css/components/hero.scss:9
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -63,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 3 of /Users/Shynar/Desktop/SurfBoard/css/components/hero.scss\A \A 1: .hero {\A 2:   width: 100%;\A 3:   background: url(../img/bg1.png), $blue;\A 4:   background-position: center center;\A 5:   background-repeat: no-repeat;\A 6:   background-size: cover;\A 7:   height: 100vh;\A 8:   min-height: rem(650px);"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 9 of /Users/Shynar/Desktop/SurfBoard/css/components/hero.scss\A \A 4:   background-position: center center;\A 5:   background-repeat: no-repeat;\A 6:   background-size: cover;\A 7:   height: 100vh;\A 8:   min-height: rem(650px);\A 9:   color: $white;\A 10: \A 11:   @include tablets {\A 12:     background: url(../img/arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png);\A 13:     background-position: right bottom;\A 14:     background-size: 100% 100%;"; }
