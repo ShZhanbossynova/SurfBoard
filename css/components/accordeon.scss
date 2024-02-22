@@ -1,0 +1,149 @@
+.accordeon-section {
+	text-align: center;
+}
+
+.accordeon {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+	text-align: center;
+
+	&-mobile {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+
+		.accordeon__item {
+			width: 40%;
+			margin-right: 0;
+		}
+
+		.accordeon__link {
+			justify-content: center;
+			margin-bottom: 10px;
+		}
+
+		.accordeon__content {
+			flex-direction: column;
+		}
+	}
+
+	&-container {
+		margin-top: rem(250px);
+		text-align: center;
+	}
+
+	&__item {
+			justify-content: center;
+			align-items: center;
+	}
+
+	&__item{
+		// margin-bottom: rem(35px);
+		margin-right: rem(20px);
+		justify-content: space-between;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+		&-active{
+			.accordeon__link{
+				color: $yellow;
+
+				&::after{
+					transform:rotate(-180deg);
+				}
+			}
+
+			.accordeon__content{
+				height: 100%;
+			}
+		}
+
+	&__link {
+		align-items: center;
+		text-align: center;
+		color: $darkgrey;
+		display: inline-flex;
+		align-items: center;
+		font-size: rem(21px);
+		font-weight: 700;
+		margin-bottom: 20px;
+		width: 100%;
+		justify-content: center;
+
+		&::after{
+			content: "";
+			height: 0;
+		  width: 0;
+		  border: rem(7px) solid transparent;
+		  border-top-color: $darkgrey;
+		  border-bottom-width:rem( 0px);
+		  margin-right: rem(13px);
+			margin-left: rem(4px);
+		}
+	}
+
+	&__content{
+		overflow: hidden;
+		height: 0;
+		transition: .8s;
+
+		&-wrapp{
+			display: flex;
+		}
+	}
+
+	&__avatar{
+		width: rem(220px);
+		height: rem(290px);
+		overflow: hidden;
+		flex-shrink: 0;
+    background-color: white;
+		margin-bottom: rem(21px);
+
+		&-pic{
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__info{
+		font-size: rem(18px);
+		font-weight: 400;
+		text-align: center;
+
+		&-position{
+			margin-bottom: rem(7px);
+			color: $darkgrey;
+			font-size: rem(18px);
+		}
+
+		&-text{
+			font-weight: 300;
+			line-height: rem(24px);
+			color: $grey;
+			font-weight: 300;
+
+			p {
+			    max-width: rem(220px);
+			}
+		}
+	}
+}
+
+@include tablets {
+	.accordeon-desktop {
+		display: none;
+	}
+
+	.accordeon-mobile {
+		display: flex;
+		.accordeon__item {
+			width: 50%;
+		}
+	}
+}

@@ -26,23 +26,32 @@ $blue: #1968B1;
 //components 
 @import 'components/hero.scss';
 @import 'components/header.scss';
-@import 'components/burger.scss';
+
 @import 'components/features.scss';
 @import 'components/btn.scss';
 @import 'components/section.scss';
 @import 'components/benefits.scss';
+
 @import 'components/slider.scss';
 @import 'components/slide.scss';
 @import 'components/params.scss';
 @import 'components/info.scss';
 @import 'components/headline.scss';
+
+@import 'components/accordeon.scss';
+
 @import 'components/reviews.scss';
 @import 'components/interactive-avatar.scss';
+
 @import 'components/form.scss';
 @import 'components/radio.scss';
 @import 'components/fixed-menu.scss';
 @import 'components/map.scss';
+
+
 @import 'components/footer.scss';
 @import 'components/socials.scss';
 @import 'components/contacts.scss';
+
 @import 'components/overlay.scss';
+@import 'components/burger.scss';
